@@ -1,0 +1,117 @@
+body {
+    background: black;
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+    
+}
+
+.container {
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(0, 0%, 100%);
+    width: 70%;
+    max-width: 350px;
+    border-radius: 10px;
+    margin: 100px auto auto auto;
+    padding: 25px;
+    justify-content: center;
+}
+.hide {
+    display: none;
+}
+.star_container {
+    background-color: rgb(48, 58, 70);
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    color: hsl(217, 12%, 63%);
+}
+input[type='radio'][name='mell'] {
+    display: none;
+}
+label {
+    background-color: rgb(48, 58, 70);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: hsl(217, 12%, 63%);
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+input[type='radio'][name='mell']:checked + label {
+    background-color: rgb(89, 102, 119);
+}
+.btn_div {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.sub {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    width: 100%;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    font-family: "Overpass", sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+}
+.sub:hover {
+    background-color: hsl(0, 0%, 100%);
+     color: hsl(25, 97%, 53%);
+}
+.select {
+    padding: 3px 15px;
+    margin: 15px auto 0 auto;
+    color: hsl(25, 97%, 53%);
+    border-radius: 20px;
+    background-color: hsl(213, 20%, 29%);
+    list-style: none;
+    display: inline-block;
+
+}
+.tick_container {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    color: hsl(217, 12%, 63%);
+    font-size: 0.9em;
+}
+h2 {
+   text-align: center;
+}
+.container1 {
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(0, 0%, 100%);
+    width: 70%;
+    max-width: 350px;
+    border-radius: 10px;
+    margin: 100px auto auto auto;
+    padding: 25px;
+    justify-content: center;
+    text-align: center;
+}
+@media (max-width: 600px) {
+    .break {
+        display: none;
+    }
+}
